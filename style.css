@@ -19,7 +19,7 @@ html { scroll-behavior: smooth; }
 .header__nav{
     display: flex;
     justify-content: flex-end;
-
+    postion:sticky;
     font-size: 25px;
     
 }
@@ -32,6 +32,16 @@ html { scroll-behavior: smooth; }
     padding: 5px 14px;
     border-radius: 6px;
 
+}
+.header__nav-link:hover{animation:sizeUp 1s 1;}
+@keyframes sizeUp{
+0%{
+transform:scale(1);
+    
+}
+    100%{
+    transform:scale(2);
+    }
 }
 .header{
     
@@ -155,3 +165,4 @@ html { scroll-behavior: smooth; }
 
 
 } 
+

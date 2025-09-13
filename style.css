@@ -20,6 +20,8 @@ html { scroll-behavior: smooth; }
     display: flex;
     justify-content: flex-end;
     postion:sticky;
+    top:0px;
+    left:0px;
     font-size: 25px;
     
 }
@@ -165,4 +167,5 @@ transform:scale(1);
 
 
 } 
+
 

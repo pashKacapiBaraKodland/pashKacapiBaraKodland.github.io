@@ -175,10 +175,11 @@ transform:scale(1);
 
 } 
 
-footer{
+footer>h1{
  color:black;
  font-family:roboto;
 }
+
 
 
 
